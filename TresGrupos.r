@@ -1,10 +1,8 @@
-#Luis Fernando Amador Beltr·n
+#Luis Fernando Amador Beltr√°n
 #tasa de aprendizaje 0.01
 #4 capas ocultas
 
 Data <- read.csv("C:/users/lui_1/Desktop/tresgrupos.csv")
-names(Data) <- c("x1", "x2", "y1", "y2", "y3")
-
 head(Data)
 
 #install.packages("neuralnet", dependencies = TRUE)
